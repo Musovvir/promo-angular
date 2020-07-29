@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import { defineCustomElements} from 'stencil-viskhan-promo-v1/loader';
+import { defineCustomElements} from 'stencil-viskhan-promo-v2/loader';
 
 if (environment.production) {
   enableProdMode();
